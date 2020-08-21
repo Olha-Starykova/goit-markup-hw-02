@@ -1,0 +1,63 @@
+/* цвет основного текста 
+color: */
+
+/* цвет студия color:; */
+/* цвет акцента color: #2196F3; */
+/* цвет портфолио color: ; */
+/* эффективные решения color: #FFFFFF; */
+/* внимание к деталям color: #212121; */
+/* чем мы занимаемся color: #212121 */
+/* подписи к фото продукт дес...color: #757575; */
+/* футер инфо и тел color: rgba(255, 255, 255, 0.6); */
+/* хедер тел color: #757575; */
+/* вторичный цвет фона F5F4FA */
+/* бекграунд background: #E5E5E5 */
+/* бекграунт черный 2F303A */
+/* фон наша команда F5F4FA */
+
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav. link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.info:hover {
+  color: #2196f3;
+}
+.info {
+  color: #212121;
+}
+.tel {
+  color: #757575;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.section-subtitle {
+  color: #212121;
+}
+.section-title {
+  color: #212121;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
