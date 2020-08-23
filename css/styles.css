@@ -54,6 +54,10 @@ color: */
   line-height: 1.19;
 }
 
+.fon .logodark {
+  color: var(--wite-color);
+}
+
 .list {
   list-style: none;
 }
@@ -92,6 +96,15 @@ color: */
 .info:hover {
   color: var(--accent-color);
 }
+.info-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .tel {
   color: var(--primary-text-color);
 
@@ -116,34 +129,38 @@ color: */
   text-transform: uppercase;
 }
 
-.section-subtitle {
+.section .section-subtitle {
   color: var(--dark-color);
-}
-
-h3 {
-  font-family: Roboto;
-  font-style: 400;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.section-title {
+.section .section-title {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.section .section-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--dark-color);
 }
 
-h2 {
-  font-family: Roboto;
-  font-style: 400;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+.section .section-en {
+  font-size: 16px;
+  line-height: 1.18;
 }
 
+.hero {
+  background: #2f303a;
+}
 .hero-button {
   color: var(--wite-color);
   background-color: var(--accent-color);
@@ -157,6 +174,12 @@ h2 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .addres {
@@ -174,4 +197,13 @@ h2 {
 .button:focus {
   color: var(--wite-color);
   background-color: var(--accent-color);
+}
+
+.section .job {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.fon {
+  background: #2f303a;
 }
