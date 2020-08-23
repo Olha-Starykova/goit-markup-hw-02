@@ -13,7 +13,7 @@ color: */
 /* вторичный цвет фона F5F4FA */
 /* бекграунд background: #E5E5E5 */
 /* бекграунт черный 2F303A */
-/* фон наша команда F5F4FA */
+/* фон наша команда и кнопок F5F4FA */
 
 :root {
   --primary-text-color: #757575;
@@ -22,15 +22,36 @@ color: */
   --wite-color: #ffffff;
   --dark-color: #212121;
   --transparent: rgba(255, 255, 255, 0.6);
+  --fon-button: F5F4FA;
 }
 
 .page {
   background-color: var(--wite-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.logo {
+.logo.current {
   color: var(--title-text-color);
+
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo.current .logoacc {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .list {
@@ -39,10 +60,20 @@ color: */
 
 .site-nav .link {
   color: var(--dark-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
   color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -52,12 +83,22 @@ color: */
 
 .info {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .info:hover {
   color: var(--accent-color);
 }
 .tel {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .tel:hover {
   color: var(--accent-color);
@@ -65,18 +106,57 @@ color: */
 
 .hero-title {
   color: var(--wite-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .section-subtitle {
   color: var(--dark-color);
 }
+
+h3 {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .section-title {
   color: var(--dark-color);
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .hero-button {
   color: var(--wite-color);
   background-color: var(--accent-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .addres {
@@ -84,4 +164,12 @@ color: */
 }
 .info-footer {
   color: var(--transparent);
+}
+.button {
+  color: var(--dark-color);
+  background-color: var(--fon-button);
+}
+.button.primary {
+  color: var(--wite-color);
+  background-color: var(--accent-color);
 }
